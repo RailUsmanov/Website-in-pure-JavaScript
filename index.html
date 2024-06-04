@@ -3,10 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./icon/electric-guitar_icon-icons.com_60202.png" type="image/x-icon">
     <title>Магазин гитар</title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
+    <div id="header"></div>
+    <div id="products"></div>
+    <div id="shopping-cart"></div>
+
+
+
+    <!--Constants and Utils-->
+    <script src="constants/catalog.js"></script>
+    <script src="constants/root.js"></script>
+    <script src="utils/localStorageUtils.js"></script>
+
+    <!--Header-->
+    <script src="components/Header/Header.js"></script>
+    <link rel="stylesheet" href="components/Header/Header.css">
     
+    <!--Products-->
+    <script src="components/Products/Products.js"></script>
+    <link rel="stylesheet" href="components/Products/Products.css">
+    
+    <!--Shopping-cart-->
+    <script src="components/Shopping-cart/Shopping-cart.js"></script>
+    <link rel="stylesheet" href="components/Shopping-cart/Shopping-cart.css">
 </body>
 </html>
