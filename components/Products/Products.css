@@ -45,8 +45,6 @@
 }
 
 .products-element__btn_active{
-    margin-top: var(--spacing-medium);
-    padding: var(--spacing-small);
     border: 1px solid transparent;
     background: var(--linear-gradient);
 }
