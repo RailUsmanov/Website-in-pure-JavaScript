@@ -13,6 +13,7 @@ class Products {
             el.classList.remove(this.classNameActive);
             el.innerHTML = this.labelAdd;
         }
+        headerPage.render(products.length)
     }
     render(){
         const productsStore = localStorageUtil.getProducts();

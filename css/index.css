@@ -1,7 +1,8 @@
 :root{
-    --color-light: rgb(203, 245, 245);
+    --color-light: whitesmoke;
     --color-white: white;
     --color-unAccent: #808080;
+    --color-header: #e0e1e4; 
 
     --border-radius: 5px;
     --linear-gradient:  linear-gradient(90deg, rgba(77,106,119,0.6867997198879552) 0%, rgba(13,128,74,1) 35%, rgba(9,171,25,1) 99%);
