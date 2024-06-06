@@ -1,8 +1,16 @@
 class Header {
+    handelOpenShoppingCartPage(){
+        shoppingCart.render()
+    }
+
+
     render(count){
         const html = `
             <div class="header-container">
-                <div class="header-counter">🛒 ${count} </div>
+                <div class="header-counter" 
+                     onclick="headerPage.handelOpenShoppingCartPage()">
+                        🛒 ${count} 
+                </div>
             </div>
         `
         Root_header.innerHTML = html
